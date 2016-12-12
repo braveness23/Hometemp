@@ -8,9 +8,9 @@ One MAX31850 Thermocouple Amplifier
 
 ![Raspberry Pi + one MAX31850 Thermocouple Amplifier](Raspberry Pi + MAX31850 Thermocouple Amplifier_bb.png)
 
-
 Many MAX31850 Thermocouple Amplifiers
  
+![Raspberry Pi + one MAX31850 Thermocouple Amplifier](Raspberry Pi + MAX31850 Thermocouple Amplifiers_bb.png)
 
 Configure Raspberry Pi
 
