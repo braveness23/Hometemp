@@ -1,5 +1,7 @@
 # Hometemp
 
+TO DO: This is a super quick and dirty dump to GitHub of my project.  Clean this bad boy up and make it presentable!
+
 Raspberry Pi + MAX31850
 
 Wiring
