@@ -17,7 +17,9 @@ A project to attach one or many MAX31850 Thermocouple Aplifiers to a Raspberry P
 ### Configure Raspberry Pi
 
 The Raspberry Pi must be configured to support 1-Wire devices.
+```
 sudo nano /boot/config.txt
+```
 Append file with the following lines:
 # Enable OneWire support
 dtoverlay=w1-gpio
