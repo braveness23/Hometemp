@@ -10,10 +10,11 @@ To Do: As I work on my own project I will share code examples showing how to rea
 
 #### One MAX31850 Thermocouple Amplifier
 
-Raspberry Pi	MAX31850	Wire Color
-GND	(6)	GND (1)	Black
-3V3	(1)	VIN (2)	Red
-GPIO4 (7)	Data (8)	Yellow
+Raspberry Pi | MAX31850 | Wire Color
+--- | --- | ---
+GND	(6) | GND (1) | Black
+3V3	(1) | VIN (2) | Red
+GPIO4 (7) | Data (8) | Yellow
 
 Add a 4.7K resistor to connect the shared data line to 3V
 
