@@ -21,8 +21,9 @@ The Raspberry Pi must be configured to support 1-Wire devices.
 sudo nano /boot/config.txt
 ```
 Append file with the following lines:
-'# Enable OneWire support'
-'dtoverlay=w1-gpio'
+
+	'# Enable OneWire support'
+	'dtoverlay=w1-gpio'
 
 ![/boot/config.txt](Resources/2-12-2016 3-48-50 PM.png)
 
@@ -34,8 +35,8 @@ sudo nano /etc/modules
 
 Append file with the following lines:
 
-'w1-gpio'
-'w1-therm'
+    'w1-gpio'
+	'w1-therm'
 
 ![/etc/modules](Resources/2-12-2016 3-46-49 PM.png)
 
