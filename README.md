@@ -33,6 +33,7 @@ sudo nano /etc/modules
 ```
 
 Append file with the following lines:
+
 w1-gpio
 w1-therm
 
