@@ -2,19 +2,19 @@
 
 TO DO: This is a super quick and dirty dump to GitHub of my project.  Clean this bad boy up and make it presentable!
 
-## A project to attach one or many MAX31850 Thermocouple Aplifiers to a Raspberry Pi
+A project to attach one or many MAX31850 Thermocouple Aplifiers to a Raspberry Pi
 
-## Wiring
+### Wiring
 
-### One MAX31850 Thermocouple Amplifier
+#### One MAX31850 Thermocouple Amplifier
 
 ![Raspberry Pi + one MAX31850 Thermocouple Amplifier](Resources/Raspberry Pi + MAX31850 Thermocouple Amplifier_bb.png)
 
-#### Many MAX31850 Thermocouple Amplifiers
+##### Many MAX31850 Thermocouple Amplifiers
  
 ![Raspberry Pi + many MAX31850 Thermocouple Amplifiers](Resources/Raspberry Pi + MAX31850 Thermocouple Amplifiers_bb.png)
 
-## Configure Raspberry Pi
+### Configure Raspberry Pi
 
 The Raspberry Pi must be configured to support 1-Wire devices.
 sudo nano /boot/config.txt
