@@ -6,9 +6,9 @@ When I set out to use my Raspberry Pi to monitor temperature of my home radiant 
 
 To Do: As I work on my own project I will share code examples showing how to read the data output by the MAX31850 Thermocouple Amplifiers.
   
-### Wiring
+## Wiring
 
-#### One MAX31850 Thermocouple Amplifier
+### One MAX31850 Thermocouple Amplifier
 
 Raspberry Pi | MAX31850 | Wire Color
 --- | --- | ---
@@ -20,13 +20,13 @@ Add a 4.7K resistor to connect the shared data line to 3V
 
 ![Raspberry Pi + one MAX31850 Thermocouple Amplifier](Resources/Raspberry Pi + MAX31850 Thermocouple Amplifier_bb.png)
 
-##### Many MAX31850 Thermocouple Amplifiers
+#### Many MAX31850 Thermocouple Amplifiers
 
 The wiring of many MAX31850 Thermocouple Amplifiers to a Raspberry Pi is essentially the same however you only use the single 4.7K resistor to connect the shared data lines to 3V as show in this diagram.
 
 ![Raspberry Pi + many MAX31850 Thermocouple Amplifiers](Resources/Raspberry Pi + MAX31850 Thermocouple Amplifiers_bb.png)
 
-### Configure Raspberry Pi
+## Configure Raspberry Pi
 
 The Raspberry Pi must be configured to support 1-Wire devices.
 ```
