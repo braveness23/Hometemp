@@ -8,11 +8,11 @@ Wiring
 
 One MAX31850 Thermocouple Amplifier
 
-![Raspberry Pi + one MAX31850 Thermocouple Amplifier](Raspberry Pi + MAX31850 Thermocouple Amplifier_bb.png)
+![Raspberry Pi + one MAX31850 Thermocouple Amplifier](Resources/Raspberry Pi + MAX31850 Thermocouple Amplifier_bb.png)
 
 Many MAX31850 Thermocouple Amplifiers
  
-![Raspberry Pi + many MAX31850 Thermocouple Amplifiers](Raspberry Pi + MAX31850 Thermocouple Amplifiers_bb.png)
+![Raspberry Pi + many MAX31850 Thermocouple Amplifiers](Resources/Raspberry Pi + MAX31850 Thermocouple Amplifiers_bb.png)
 
 Configure Raspberry Pi
 
@@ -22,7 +22,7 @@ Append file with the following lines:
 # Enable OneWire support
 dtoverlay=w1-gpio
 
-![/boot/config.txt](2-12-2016 3-48-50 PM.png)
+![/boot/config.txt](Resources/2-12-2016 3-48-50 PM.png)
 
 The Raspberry Pi must also be configured to load the drivers at startup.
 sudo nano /etc/modules
@@ -30,7 +30,7 @@ Append file with the following lines:
 w1-gpio
 w1-therm
 
-![/etc/modules](2-12-2016 3-46-49 PM.png)
+![/etc/modules](Resources/2-12-2016 3-46-49 PM.png)
 
 Reboot the Raspberry Pi
 sudo reboot
@@ -39,9 +39,9 @@ Test that the drivers have loaded and the thermocouple amplifiers have been dete
 ls /sys/bus/w1/devices
 You should see a list of your devices.
 
-![ls /sys/bus/w1/devices](2-12-2016 4-04-11 PM.png)
+![ls /sys/bus/w1/devices](Resources/2-12-2016 4-04-11 PM.png)
 
 Test one of the devices
 cat /sys/bus/w1/devices/3b-000000183532/w1_slave
  
-![cat /sys/bus/w1/devices/3b-000000183532/w1_slave](2-12-2016 4-05-53 PM.png)
+![cat /sys/bus/w1/devices/3b-000000183532/w1_slave](Resources/2-12-2016 4-05-53 PM.png)
