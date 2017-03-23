@@ -52,7 +52,7 @@ Append file with the following lines:
     w1-gpio
     w1-therm
 
-![/etc/modules](Resources/2-12-2016 3-46-49 PM.png)
+![/etc/modules](Resources/2-12-2016-3-46-49-PM.png)
 
 Reboot the Raspberry Pi
 
