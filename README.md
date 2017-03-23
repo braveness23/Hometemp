@@ -21,7 +21,7 @@ Add a 4.7K resistor to connect the shared data line to 3V3
 ### One MAX31850 Thermocouple Amplifier
 
 ![Raspberry Pi + one MAX31850 Thermocouple Amplifier](/Resources/Raspberry Pi + MAX31850 Thermocouple Amplifier_bb.png)
-![Image of Yaktocat](/Resources/Capture.png)
+![Image of Yaktocat](/Hometemp/Resources/Capture.PNG)
 
 ### Many MAX31850 Thermocouple Amplifiers
 
