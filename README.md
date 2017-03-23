@@ -39,7 +39,7 @@ Append file with the following lines:
     # Enable OneWire support
     dtoverlay=w1-gpio
 
-![/boot/config.txt](Resources/2-12-2016 3-48-50 PM.png)
+![/boot/config.txt](Resources/2-12-2016-3-48-50-PM.png)
 
 The Raspberry Pi must also be configured to load the drivers at startup.
 
@@ -68,11 +68,11 @@ ls /sys/bus/w1/devices
 
 You should see a list of your devices.
 
-![ls /sys/bus/w1/devices](Resources/2-12-2016 4-04-11 PM.png)
+![ls /sys/bus/w1/devices](Resources/2-12-2016-4-04-11-PM.png)
 
 Test one of the devices
 ```
 cat /sys/bus/w1/devices/3b-000000183532/w1_slave
 ```
 
-![cat /sys/bus/w1/devices/3b-000000183532/w1_slave](Resources/2-12-2016 4-05-53 PM.png)
+![cat /sys/bus/w1/devices/3b-000000183532/w1_slave](Resources/2-12-2016-4-05-53-PM.png)
