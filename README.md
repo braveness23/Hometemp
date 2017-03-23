@@ -20,13 +20,13 @@ Add a 4.7K resistor to connect the shared data line to 3V3
 
 ### One MAX31850 Thermocouple Amplifier
 
-![Raspberry Pi + one MAX31850 Thermocouple Amplifier](https://github.com/braveness23/Hometemp/blob/master/Resources/Raspberry Pi + MAX31850 Thermocouple Amplifier_bb.png)
+![Raspberry Pi + one MAX31850 Thermocouple Amplifier](Resources/Raspberry-Pi+MAX31850-Thermocouple-Amplifier_bb.png)
 
 ### Many MAX31850 Thermocouple Amplifiers
 
 The wiring of many MAX31850 Thermocouple Amplifiers to a Raspberry Pi is essentially the same however you only use the single 4.7K resistor to connect the shared data lines to 3V as show in this diagram.
 
-![Raspberry Pi + many MAX31850 Thermocouple Amplifiers](Resources/Raspberry Pi + MAX31850 Thermocouple Amplifiers_bb.png)
+![Raspberry Pi + many MAX31850 Thermocouple Amplifiers](Resources/Raspberry-Pi+MAX31850-Thermocouple-Amplifiers_bb.png)
 
 ## Configure Raspberry Pi
 
