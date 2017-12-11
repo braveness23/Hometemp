@@ -49,7 +49,7 @@ sudo nano /etc/modules
 
 Append file with the following lines:
 
-    w1-gpio
+    w1-gpio pullup=1
     w1-therm
 
 ![/etc/modules](Resources/2-12-2016-3-46-49-PM.png)
