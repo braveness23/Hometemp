@@ -76,3 +76,9 @@ cat /sys/bus/w1/devices/3b-000000183532/w1_slave
 ```
 
 ![cat /sys/bus/w1/devices/3b-000000183532/w1_slave](Resources/2-12-2016-4-05-53-PM.png)
+
+OK, now what do I do?
+
+If you have gotten this far it is time to begin reading data from your sensor(s).  Here is an excellent guite:
+
+https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/software
