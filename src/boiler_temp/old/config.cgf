@@ -1,0 +1,10 @@
+WorkDir: /home/pi/hometemp
+Options[_]: growright
+Target[temp]: `/home/pi/hometemp/script.sh`
+MaxBytes[temp]: 100
+Title[temp]: Temperature Graph
+YLegend[temp]: Temperature (°F)
+ShortLegend[temp]: °F
+LegendI[temp]: Temperature:
+LegendO[temp]:
+Legend1[temp]: Temperature
