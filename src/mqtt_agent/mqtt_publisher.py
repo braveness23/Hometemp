@@ -15,6 +15,6 @@ def publish_temperature():
         temperature = round(random.uniform(15.0, 30.0), 2)  # Simulate temperature reading
         client.publish(TOPIC, temperature)
         print("Published: {temperature}")
-        time.sleep(5)  # Publish every 5 seconds
+        time.sleep(60)  # Publish every 5 seconds
 
 publish_temperature()
