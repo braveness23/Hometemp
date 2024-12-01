@@ -6,7 +6,8 @@ BROKER = 'localhost'
 TOPIC = 'sensors/temperature'
 
 def insert_into_database(temperature):
-    conn = sqlite3.connect('hometemp.db')
+    print("Writing to database")
+    conn = sqlite3.connect('../../database/sensor_data.db')
     cursor = conn.cursor()
 
     cursor.execute('''
@@ -18,7 +19,7 @@ def insert_into_database(temperature):
 
 # Define MQTT callbacks
 def on_connect(client, userdata, flags, rc):
-    print(f"Connected with result code {rc}")
+    print("Connected with result code {rc}")
     client.subscribe(TOPIC)
 
 def on_message(client, userdata, msg):
