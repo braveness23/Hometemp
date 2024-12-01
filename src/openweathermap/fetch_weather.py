@@ -41,7 +41,7 @@ def parse_weather_data(data):
         }
         return weather_info
     except KeyError as e:
-        print(f"Key error: {e}")
+        print("Key error: {e}")
         return None
 
 def insert_weather_data(db_path, weather_info):
@@ -67,19 +67,19 @@ def insert_weather_data(db_path, weather_info):
 def main():
     api_key = API_KEY
     city_name = CITY_NAME
-    db_path = 'sensors.db'
+    db_path = '../../database/hometemp.db'
 
     weather_data = fetch_weather(api_key, city_name)
     if weather_data['cod'] == 200:
         weather_info = parse_weather_data(weather_data)
         if weather_info:
             print(weather_data)
-            # insert_weather_data(db_path, weather_info)
-            print(f"Weather data for {city_name} inserted into database.")
+            insert_weather_data(db_path, weather_info)
+            print("Weather data for {city_name} inserted into database.")
         else:
             print("Failed to parse weather data.")
     else:
-        print(f"Error fetching weather data: {weather_data.get('message', '')}")
+        print("Error fetching weather data: {weather_data.get('message', '')}")
 
 if __name__ == '__main__':
     main()
