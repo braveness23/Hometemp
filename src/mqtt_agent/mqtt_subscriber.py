@@ -7,7 +7,7 @@ TOPIC = 'sensors/temperature'
 
 def insert_into_database(temperature):
     print("Writing to database")
-    conn = sqlite3.connect('../../database/sensor_data.db')
+    conn = sqlite3.connect('../../database/hometemp.db')
     cursor = conn.cursor()
 
     cursor.execute('''

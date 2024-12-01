@@ -19,6 +19,14 @@ CREATE TABLE IF NOT EXISTS weather_data (
 )
 ''')
 
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS temperature_readings (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    temperature REAL
+)
+''')
+
 # Commit changes and close the connection
 conn.commit()
 conn.close()
